@@ -1,0 +1,105 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans';
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+
+
+.menu{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content:center;
+}
+
+.menu li {
+	list-style-type: none;
+	margin-right: 70px;
+	padding-top: 20px;
+}
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Bebas Neue';
+	letter-spacing: 0.1em;
+	transition: 0.5s ease;
+}
+
+.menu li a:hover {
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	background: #fff;
+	color: #000;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto; /*позиционирование по центру*/
+
+}
+
+.header {
+	background: url(img/photo_2021-01-03_17-57-00.jpg) no-repeat  center top / cover;
+}
+
+.header .container h1{
+	padding-top: 348px;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: 0.1em;
+}
+
+.header .container{
+	text-align: center;
+	color: #fff;	
+}
+
+.scroll_text h3{
+	padding: 221px 0 50px;
+}
+section {
+	color: #48555B;
+	font-family: 'Open Sans';
+	font-size: 16px;
+
+}
+
+.description {
+	display: flex;
+	justify-content: space-around;
+}
+
+.head-text h1 {	
+	padding-top: 15px;
+	color: #48555B;
+	font-size: 50px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.desk-left, .desk-right {
+	max-width: 500px;
+}
+
+.myfooter-text{
+	display: flex;
+	font-size: 14px;
+	line-height: 20px;
+	justify-content: center;
+}
+
+.myfooter-text p{
+	margin: 10px 45px 25px;
+}
